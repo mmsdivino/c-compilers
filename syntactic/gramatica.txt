@@ -1,0 +1,61 @@
+r0 #SS -> #S $
+r1 #S -> #COMANDOS
+r2 #COMANDOS -> #C #COMANDOS
+r3 #COMANDOS -> &
+r4 #C -> #D
+r5 #C -> #RS
+r6 #C -> #PU
+r7 #C -> #I
+r8 #C -> #F
+r9 #C -> #FE
+r10 #C -> #R
+r11 #C -> #P
+r12 #D -> #DE
+r13 #DE -> declare #L as #TIPO .
+r14 #L -> id #VETOR , #L
+r15 #L -> id #VETOR
+r16 #VETOR -> [ ]
+r17 #VETOR -> &
+r18 #TIPO -> letter
+r19 #TIPO -> number
+r20 #RS -> #RSE
+r21 #RSE -> resize id #EXP_2 to #EXP .
+r22 #EXP -> #EXP + #T
+r23 #EXP -> #EXP - #T
+r24 #EXP -> #T
+r25 #T -> #T * #M
+r26 #T -> #T / #M
+r27 #T -> #T % #M
+r28 #T -> #M
+r29 #M -> - ( #EXP )
+r30 #M -> ( #EXP )
+r31 #M -> - #OPERANDO
+r32 #M -> #OPERANDO
+r33 #OPERANDO -> id #EXP_2
+r34 #OPERANDO -> constant
+r35 #PU -> #PT
+r36 #PT -> put #T_2 in id #EXP_2 .
+r37 #T_2 -> #EXP
+r38 #EXP_2 -> [ #EXP ]
+r39 #EXP_2 -> &
+r40 #I -> #IF
+r41 #IF -> if #EXR then [ #S ] #ELSE
+r42 #ELSE -> else [ #S ]
+r43 #ELSE -> &
+r44 #EXR -> #EXP #OPR #EXP
+r45 #OPR -> <
+r46 #OPR -> >
+r46 #OPR -> <=
+r47 #OPR -> >=
+r48 #OPR -> =
+r49 #OPR -> <>
+r50 #F -> #FOR
+r51 #FOR -> for id #EXP_2 from #EXP to #EXP do [ #S ]
+r52 #FE -> #FORE
+r53 #FORE -> foreach id #EXP_2 in id do [ #S ]
+r54 #R -> #RE
+r55 #RE -> read id #EXP_2 .
+r56 #P -> #PR
+r57 #PR -> print #TYPE .
+r58 #TYPE -> id #EXP_2
+r59 #TYPE -> constant

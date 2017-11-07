@@ -1,0 +1,7 @@
+declare a , b as letter.
+if a < b then [
+ put a in b.
+]
+else[
+  put b in a.
+]

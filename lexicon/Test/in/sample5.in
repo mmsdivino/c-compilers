@@ -1,0 +1,17 @@
+declare n As NumBer.
+read N.
+DECLARE fat, i as NUMBER.
+put 1 In FAT.
+FOR I fRoM 1 to N[
+PUT fat * i in fat.
+]
+print fat.
+
+declare n As NumBer.
+read N.
+DECLARE fat, i as NUMBER.
+put 1 TO FAT.
+FOR I fRoM 1 to N[
+PUT fat * i in fat.
+]
+print fat.

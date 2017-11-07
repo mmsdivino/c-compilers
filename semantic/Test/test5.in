@@ -1,0 +1,2 @@
+declare i, a[],soma, n as number.
+resize a to 10.

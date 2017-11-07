@@ -1,0 +1,10 @@
+LINHA 1: '\\"'
+LINHA 3: "AGORA TEM MAIS DE 256 CARACTERES Lorem ipsum dolor sit amet, consectetur adipiscing elit.            Duis rhoncus turpis lorem, id vulputate velit viverra ac. 
+LINHA 3: "
+LINHA 5: "AGORA TEM AINDA MAIS QUE 256 CARACTERES Lorem ipsum dolor sit amet, consectetur adipiscing elit.            Duis rhoncus turpis lorem, id vulputate velit viverra ac. \\\ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris gravida dictum odio eget faucibus metus."
+LINHA 7: "AGORA TEM TEM TEM #\"#
+LINHA 17: "AGORA TEM TEM TEM #\"#
+LINHA 19: "\'
+LINHA 21: "des \'\a\'"
+LINHA 23: ''
+LINHA 25: "ijlmn \" bah'

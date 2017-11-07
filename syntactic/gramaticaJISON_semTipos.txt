@@ -1,0 +1,160 @@
+%%
+%token declare as number letter put in if then else forearch do for from to
+%token resize read print
+%token id constant
+
+S
+    : COMANDOS
+    ;
+
+COMANDOS
+    : C COMANDOS
+    |
+    ;
+
+C
+    : D
+    | RS
+    | PU
+    | I
+    | F
+    | FE
+    | R
+    | P
+    ;
+
+D
+    : DE
+    ;
+
+DE
+    : declare L as TIPO'.'
+    ;
+
+L
+    : id VETOR ',' L
+    | id VETOR
+    ;
+
+VETOR
+    : '['']'
+    |
+    ;
+
+TIPO
+    : letter
+    | number
+    ;
+
+RS
+    : RSE
+    ;
+
+RSE
+    : resize id EXP_2 to EXP'.'
+    ;
+
+EXP
+    : EXP'+'T
+    | EXP'-'T
+    | T
+    ;
+
+T
+    : T'*'M
+    | T'/'M
+    | T'%'M
+    | M
+    ;
+
+M
+    : '-''('EXP')'
+    | '('EXP')'
+    | '-'OPERANDO
+    | OPERANDO
+    ;
+
+OPERANDO
+    : id EXP_2
+    | constant
+    ;
+
+PU
+    : PT
+    ;
+
+PT
+    : put T_2 in id EXP_2'.'
+    ;
+
+T_2
+    : EXP
+    ;
+
+EXP_2
+    : '['EXP']'
+    |
+    ;
+
+I
+    : IF
+    ;
+
+IF
+    : if EXR then '['S']' ELSE
+    ;
+
+ELSE
+    : else '['S']'
+    |
+    ;
+
+EXR
+    : EXP OPR EXP
+    ;
+
+OPR
+    : '<'
+    | '>'
+    | '<='
+    | '>='
+    | '='
+    | '<>'
+    ;
+
+F
+    : FOR
+    ;
+
+FOR
+    : for id EXP_2 from EXP to EXP do '['S']'
+    ;
+
+FE
+    : FORE
+    ;
+
+FORE
+    : foreach id EXP_2 in id do '['S']'
+    ;
+
+R
+    : RE
+    ;
+
+RE
+    : read id EXP_2'.'
+    ;
+
+P
+    : PR
+    ;
+
+PR
+    : print TYPE'.'
+    ;
+
+TYPE
+    : id EXP_2
+    | constant
+    ;

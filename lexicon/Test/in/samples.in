@@ -1,0 +1,89 @@
+declare a123, b456, 56dfg as letter.
+REAL a, b.
+a = c*alfa*0,345;
+RETORNAR '\a'.
+IMPRIME b
+sur%Gnsa$trq<<a123.
+
+"42"42
+42"42"
+"	"
+"
+##
+
+'\'abcd
+"marcos&silva"
+'
+''
+'''
+'\a'
+'marcos'
+
+"marcos
+antonio"
+'a
+'
+"marcos\n antonio"
+marcos\n antonio
+
+declare n As NumBer.
+read N.
+DECLARE fat, i as NUMBER.
+put 1 In FAT.
+FOR I fRoM 1 to N[
+PUT fat * i in fat.
+]
+print fat.
+
+declare n As NumBer.
+read N.
+DECLARE fat, i as NUMBER.
+put 1 TO FAT.
+FOR I fRoM 1 to N[
+PUT fat * i in fat.
+]
+print fat.
+
+"ma'ss"
+'"'
+
+"ma\'ss"
+'\"'
+
+"abCbd\t kkkk\n \" citando \" \'A\' Yii\\ "
+"abCbd\t kkkk\n Yii\\ \" citando \" \'A\'"
+
+"marcos \a silva"
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus turpis lorem, id vulputate velit viverra ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris gravida dictum odio eget faucibus metus."
+
+"AGORA TEM MAIS DE 256 CARACTERES Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus turpis lorem, id vulputate velit viverra ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris gravida dictum odio eget faucibus metus."
+
+'A'
+'AAAA'
+1234567890
+1234567890AS111
+
+"10"10
+10"10"
+"	"
+"
+##
+sample
+
+abc\"abc"
+abc\'a'
+"""
+345;
+'abc'
+'''
+"abc	abc"
+"""
+
+"a\"b\"c\"d"
+'a\'b\'c\'d'
+
+1111#$#$1111
+1111aaaa1111
+
+"a\"b\"c\" de

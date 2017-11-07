@@ -1,0 +1,6 @@
+declare vet[], b  as number.
+resize vet to 10.
+if vet[0] < b THEN[
+   put vet[0] in b.
+]
+
